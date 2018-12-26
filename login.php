@@ -2,7 +2,7 @@
 session_start();
 		
 	if(isset($_POST['Submit'])){
-		$logins = array('zakia_afrin@yahoo.com' => '1234','zakia@yahoo.com' => '5678','jeme@yahoo.com' => '9101');
+		$logins = array('zakia@yahoo.com' => '1234','afrin@yahoo.com' => '5678','jeme@yahoo.com' => '9101');
 		
 		$Username = isset($_POST['Username']) ? $_POST['Username'] : '';
 		$Password = isset($_POST['Password']) ? $_POST['Password'] : '';
@@ -28,6 +28,7 @@ session_start();
 <div class = "imgcontainer">
   <img src = "img/login.jpg" alt = "Avatar" class = "avatar">
 </div>
+<h4>Username : zakia@yahoo.com <br/>Password : 1234<br/></h4>
 <div class = "container">
   <label for = "uname"><b>Username</b></label>
   <input type = "text" name = "Username" value = "" placeholder = "Enter Username" required><br/><br/>
