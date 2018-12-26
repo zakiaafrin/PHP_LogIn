@@ -28,7 +28,7 @@ session_start();
 <div class = "imgcontainer">
   <img src = "img/login.jpg" alt = "Avatar" class = "avatar">
 </div>
-<h4>Username : zakia@yahoo.com <br/>Password : 1234<br/></h4>
+<h4>Username : zakia@yahoo.com , Password : 1234</h4>
 <div class = "container">
   <label for = "uname"><b>Username</b></label>
   <input type = "text" name = "Username" value = "" placeholder = "Enter Username" required><br/><br/>
